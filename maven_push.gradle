@@ -1,0 +1,19 @@
+apply plugin: 'maven'
+
+uploadArchives {
+    configuration = configurations.archives
+    repositories {
+        mavenDeployer {
+            repository(url: 'http://127.0.0.1:8081/nexus/content/repositories/maitian/') {
+                authentication(userName: 'admin', password: 'admin123')
+            }
+            pom.project {
+                version '0.0.4'
+                artifactId 'util'
+                groupId 'cn.maitian'
+                packaging 'aar'
+                description 'common util'
+            }
+        }
+    }
+}
