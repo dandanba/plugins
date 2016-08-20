@@ -44,6 +44,8 @@ git clone https://github.com/dandanba/vpa.git
 start cmd /k "cd vpa&&uploadArchives&&exit"
 git clone https://github.com/dandanba/handler.git
 start cmd /k "cd handler&&uploadArchives&&exit"
+git clone https://github.com/dandanba/brvh.git
+start cmd /k "cd brvh&&uploadArchives&&exit"
 git clone https://github.com/dandanba/manifest.git
 cd maitian
 git clone https://github.com/dandanba/component.git
