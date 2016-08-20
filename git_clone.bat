@@ -38,6 +38,8 @@ git clone https://github.com/dandanba/viewAnimations.git
 start cmd /k "cd viewAnimations&&uploadArchives&&exit"
 git clone https://github.com/dandanba/spm.git
 start cmd /k "cd spm&&uploadArchives&&exit"
+git clone https://github.com/dandanba/vpi.git
+start cmd /k "cd vpi&&uploadArchives&&exit"
 git clone https://github.com/dandanba/manifest.git
 cd maitian
 git clone https://github.com/dandanba/component.git
