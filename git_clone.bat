@@ -52,6 +52,8 @@ git clone https://github.com/dandanba/ntb.git
 start cmd /k "cd ntb&&uploadArchives&&exit"
 git clone https://github.com/dandanba/switcher.git
 start cmd /k "cd switcher&&uploadArchives&&exit"
+git clone https://github.com/dandanba/lombok.git
+start cmd /k "cd lombok&&uploadArchives&&exit"
 git clone https://github.com/dandanba/manifest.git
 cd maitian
 git clone https://github.com/dandanba/component.git
@@ -62,12 +64,15 @@ git clone https://github.com/dandanba/retrofit_api.git
 start cmd /k "cd retrofit_api&&uploadArchives&&exit"
 git clone https://github.com/dandanba/res.git
 start cmd /k "cd res&&uploadArchives&&exit"
+git clone https://github.com/dandanba/actions.git
+start cmd /k "cd actions&&uploadArchives&&exit"
+
+mkdir components
+cd components
 git clone https://github.com/dandanba/launcher.git
 start cmd /k "cd launcher&&uploadArchives&&exit"
 git clone https://github.com/dandanba/guide.git
 start cmd /k "cd guide&&uploadArchives&&exit"
 git clone https://github.com/dandanba/main.git
 start cmd /k "cd main&&uploadArchives&&exit"
-git clone https://github.com/dandanba/actions.git
-start cmd /k "cd actions&&uploadArchives&&exit"
 exit
