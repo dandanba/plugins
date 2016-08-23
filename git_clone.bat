@@ -66,7 +66,6 @@ git clone https://github.com/dandanba/res.git
 start cmd /k "cd res&&uploadArchives&&exit"
 git clone https://github.com/dandanba/actions.git
 start cmd /k "cd actions&&uploadArchives&&exit"
-
 mkdir components
 cd components
 git clone https://github.com/dandanba/launcher.git
