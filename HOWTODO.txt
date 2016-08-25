@@ -1,5 +1,0 @@
-1. 拷贝'maven_push.gradle'到library文件加下
-2. 在build.gradle文件的最后一行加入
-	apply from: 'maven_push.gradle'
-3. 进入cmd，执行 gradlew uploadArchives
-4. 到 http://127.0.0.1:8081/nexus/content/repositories/maitian/ 查看结果
